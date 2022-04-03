@@ -9,7 +9,6 @@ Feature: BookIt Api tests
 
 
 
-  @wip
   Scenario: get user information
     Given url baseUrl
     And path "api/users/me"
@@ -19,3 +18,20 @@ Feature: BookIt Api tests
     Then status 200
     And print response
     And match response == {"id":140,"firstName":"Ase","lastName":"Norval","role":"student-team-leader"}
+  
+  
+  
+  
+  
+  
+  @wip
+  Scenario: get campus information
+    Given url baseUrl
+    And path "api/campuses"
+    And header Authorization = "Bearer " + accessToken
+    And param Accept = "application/json"
+    When method GET
+    Then status 200
+    And print response
+    And def expectedCampuses = read("classpath:data/campuses.json")
+    And match response == expectedCampuses
