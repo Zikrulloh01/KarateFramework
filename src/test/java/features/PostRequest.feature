@@ -51,7 +51,7 @@ Feature: Karate Java Integration
       * print newSpartan
 
 
-  @wip
+
   Scenario: Create Spartan using Random Data Generator
     * def SDG = Java.type('utilities.SpartanDataGenerator')
        #creating an object from SpartanDataGenerator class
