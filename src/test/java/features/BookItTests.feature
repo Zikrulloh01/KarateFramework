@@ -1,3 +1,4 @@
+@all
 Feature: BookIt Api tests
 
   Background:

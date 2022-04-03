@@ -1,3 +1,4 @@
+@all
 Feature: Assertion In Karate
 
 

@@ -1,3 +1,4 @@
+@all
 Feature: Karate Java Integration
 
 

@@ -1,3 +1,4 @@
+@all
 Feature: get user token
 
 

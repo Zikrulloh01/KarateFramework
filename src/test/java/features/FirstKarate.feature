@@ -1,3 +1,4 @@
+@all
 Feature: Welcome to Karate
   
   

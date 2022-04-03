@@ -1,3 +1,4 @@
+@all
 Feature: exchange rates api tests
   
   

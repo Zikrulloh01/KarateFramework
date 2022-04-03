@@ -1,3 +1,4 @@
+@all
 Feature: Parameter Passing
 
 
@@ -50,7 +51,7 @@ Feature: Parameter Passing
       """
         {
           "id": 7,
-          "name": "Hershel",
+          "name": "OSCAR",
           "gender": "Male",
           "phone": 5278678322
          }

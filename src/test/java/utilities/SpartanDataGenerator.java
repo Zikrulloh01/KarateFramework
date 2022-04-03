@@ -13,7 +13,7 @@ public class SpartanDataGenerator {
         Faker faker = new Faker();
         String name = faker.name().firstName();
         String gender = faker.demographic().sex();
-        long phone = Long.parseLong(faker.numerify("##########"));
+        long phone = Long.parseLong(faker.numerify("###########"));
 
 
         Map<String, Object> newSp = new HashMap<>();
