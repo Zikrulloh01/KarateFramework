@@ -23,8 +23,7 @@ Feature: BookIt Api tests
   
   
   
-  
-  @wip
+
   Scenario: get campus information
     Given url baseUrl
     And path "api/campuses"
