@@ -7,8 +7,8 @@ Feature: Karate Java Integration
   Background:
     # Creating urls globally and widely use them in any test steps later
     * def baseUrl = "http://api.exchangeratesapi.io/v1/?access_key=29abf879f3cdad157136b20a7cbaa1b2"
-    * def spartanUrl = "http://100.26.102.120:8000"
-    * def hr_url = "http://100.26.102.120:1000/ords/hr"
+    * def spartanUrl = "http://34.227.115.233:8000"
+    * def hr_url = "http://34.227.115.233:1000/ords/hr"
 
 
 
